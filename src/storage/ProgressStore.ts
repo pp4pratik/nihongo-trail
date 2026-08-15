@@ -50,6 +50,21 @@ export interface ProgressStore {
   getDailyStats(date: string): Promise<DailyStatsEntry | undefined>
   saveDailyStats(entry: DailyStatsEntry): Promise<void>
 
+  /**
+   * §10.3's per-answer write: card update + review log entry + session
+   * state + meta (XP) delta, in one Dexie transaction. `card` and
+   * `reviewLogEntry` are omitted for a teaching card (§7.15) — accepting
+   * one doesn't produce an FSRS rating or a review log row, only a session
+   * advance (and the first-time card creation, which upsertCards already
+   * covers separately when the teaching card is accepted).
+   */
+  persistAnswer(params: {
+    card?: SrsCard
+    reviewLogEntry?: ReviewLogEntry
+    session: Session
+    metaPatch?: Partial<UserMeta>
+  }): Promise<void>
+
   exportAll(): Promise<ExportBundle>
   importAll(bundle: ExportBundle): Promise<ImportResult>
 

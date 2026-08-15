@@ -1,4 +1,49 @@
-import type { SrsCard, ReviewLogEntry, Session } from '@/types'
+import type { SrsCard, ReviewLogEntry, Session, KanaItem, Lesson } from '@/types'
+
+/** A small, self-contained kana pool for session-engine tests — deliberately
+ * tiny compared to the real 208-item content so tests stay fast and easy
+ * to reason about. Includes one confusable pair (め/ぬ) on purpose. */
+export function makeKanaPool(): KanaItem[] {
+  const entries: Array<[string, string, string[]]> = [
+    ['あ', 'kana:hiragana:あ', ['a']],
+    ['い', 'kana:hiragana:い', ['i']],
+    ['う', 'kana:hiragana:う', ['u']],
+    ['え', 'kana:hiragana:え', ['e']],
+    ['お', 'kana:hiragana:お', ['o']],
+    ['め', 'kana:hiragana:め', ['me']],
+    ['ぬ', 'kana:hiragana:ぬ', ['nu']],
+  ]
+  return entries.map(([char, id, romaji]) => ({
+    id,
+    type: 'kana',
+    script: 'hiragana',
+    char,
+    romaji,
+    group: 'basic',
+    confusableWith:
+      char === 'め' ? ['kana:hiragana:ぬ'] : char === 'ぬ' ? ['kana:hiragana:め'] : [],
+    audioUrl: `/audio/kana/hiragana/${encodeURIComponent(char)}.opus`,
+  }))
+}
+
+export function makeIntroLesson(overrides: Partial<Lesson> = {}): Lesson {
+  const itemIds = ['kana:hiragana:あ', 'kana:hiragana:い', 'kana:hiragana:う']
+  return {
+    id: 'lesson:test:0',
+    unitId: 'unit:test',
+    index: 0,
+    kind: 'kana_intro',
+    title: 'あ い う',
+    introducesItems: itemIds,
+    practicesItems: itemIds,
+    exerciseTemplates: itemIds.flatMap((itemId) => [
+      { type: '7.15', itemId },
+      { type: '7.1', itemId },
+    ]),
+    estimatedMinutes: 8,
+    ...overrides,
+  }
+}
 
 export function makeCard(overrides: Partial<SrsCard> = {}): SrsCard {
   return {

@@ -1,0 +1,2611 @@
+{
+  "items": [
+    {
+      "id": "kana:hiragana:あ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "あ",
+      "romaji": [
+        "a"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%82.opus"
+    },
+    {
+      "id": "kana:katakana:ア",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ア",
+      "romaji": [
+        "a"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:マ"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%82%A2.opus"
+    },
+    {
+      "id": "kana:hiragana:い",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "い",
+      "romaji": [
+        "i"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:り"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%84.opus"
+    },
+    {
+      "id": "kana:katakana:イ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "イ",
+      "romaji": [
+        "i"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%A4.opus"
+    },
+    {
+      "id": "kana:hiragana:う",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "う",
+      "romaji": [
+        "u"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%86.opus"
+    },
+    {
+      "id": "kana:katakana:ウ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ウ",
+      "romaji": [
+        "u"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%A6.opus"
+    },
+    {
+      "id": "kana:hiragana:え",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "え",
+      "romaji": [
+        "e"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%88.opus"
+    },
+    {
+      "id": "kana:katakana:エ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "エ",
+      "romaji": [
+        "e"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%A8.opus"
+    },
+    {
+      "id": "kana:hiragana:お",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "お",
+      "romaji": [
+        "o"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%8A.opus"
+    },
+    {
+      "id": "kana:katakana:オ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "オ",
+      "romaji": [
+        "o"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%AA.opus"
+    },
+    {
+      "id": "kana:hiragana:か",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "か",
+      "romaji": [
+        "ka"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:カ"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%8B.opus"
+    },
+    {
+      "id": "kana:katakana:カ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "カ",
+      "romaji": [
+        "ka"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:か"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%82%AB.opus"
+    },
+    {
+      "id": "kana:hiragana:き",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "き",
+      "romaji": [
+        "ki"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:さ"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%8D.opus"
+    },
+    {
+      "id": "kana:katakana:キ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "キ",
+      "romaji": [
+        "ki"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%AD.opus"
+    },
+    {
+      "id": "kana:hiragana:く",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "く",
+      "romaji": [
+        "ku"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%8F.opus"
+    },
+    {
+      "id": "kana:katakana:ク",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ク",
+      "romaji": [
+        "ku"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:ワ",
+        "kana:katakana:ケ"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%82%AF.opus"
+    },
+    {
+      "id": "kana:hiragana:け",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "け",
+      "romaji": [
+        "ke"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%91.opus"
+    },
+    {
+      "id": "kana:katakana:ケ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ケ",
+      "romaji": [
+        "ke"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:ク",
+        "kana:katakana:ワ"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B1.opus"
+    },
+    {
+      "id": "kana:hiragana:こ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "こ",
+      "romaji": [
+        "ko"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%93.opus"
+    },
+    {
+      "id": "kana:katakana:コ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "コ",
+      "romaji": [
+        "ko"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B3.opus"
+    },
+    {
+      "id": "kana:hiragana:さ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "さ",
+      "romaji": [
+        "sa"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:き"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%95.opus"
+    },
+    {
+      "id": "kana:katakana:サ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "サ",
+      "romaji": [
+        "sa"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B5.opus"
+    },
+    {
+      "id": "kana:hiragana:し",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "し",
+      "romaji": [
+        "shi",
+        "si"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:つ"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%97.opus"
+    },
+    {
+      "id": "kana:katakana:シ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "シ",
+      "romaji": [
+        "shi",
+        "si"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:ツ"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B7.opus"
+    },
+    {
+      "id": "kana:hiragana:す",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "す",
+      "romaji": [
+        "su"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%99.opus"
+    },
+    {
+      "id": "kana:katakana:ス",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ス",
+      "romaji": [
+        "su"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:ヌ"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B9.opus"
+    },
+    {
+      "id": "kana:hiragana:せ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "せ",
+      "romaji": [
+        "se"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%9B.opus"
+    },
+    {
+      "id": "kana:katakana:セ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "セ",
+      "romaji": [
+        "se"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%BB.opus"
+    },
+    {
+      "id": "kana:hiragana:そ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "そ",
+      "romaji": [
+        "so"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%9D.opus"
+    },
+    {
+      "id": "kana:katakana:ソ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ソ",
+      "romaji": [
+        "so"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:ン",
+        "kana:hiragana:ん"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%82%BD.opus"
+    },
+    {
+      "id": "kana:hiragana:た",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "た",
+      "romaji": [
+        "ta"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%9F.opus"
+    },
+    {
+      "id": "kana:katakana:タ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "タ",
+      "romaji": [
+        "ta"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%BF.opus"
+    },
+    {
+      "id": "kana:hiragana:ち",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ち",
+      "romaji": [
+        "chi",
+        "ti"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%A1.opus"
+    },
+    {
+      "id": "kana:katakana:チ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "チ",
+      "romaji": [
+        "chi",
+        "ti"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:テ"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%83%81.opus"
+    },
+    {
+      "id": "kana:hiragana:つ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "つ",
+      "romaji": [
+        "tsu",
+        "tu"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:し"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%A4.opus"
+    },
+    {
+      "id": "kana:katakana:ツ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ツ",
+      "romaji": [
+        "tsu",
+        "tu"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:シ"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%83%84.opus"
+    },
+    {
+      "id": "kana:hiragana:て",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "て",
+      "romaji": [
+        "te"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%A6.opus"
+    },
+    {
+      "id": "kana:katakana:テ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "テ",
+      "romaji": [
+        "te"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:チ"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%83%86.opus"
+    },
+    {
+      "id": "kana:hiragana:と",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "と",
+      "romaji": [
+        "to"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%A8.opus"
+    },
+    {
+      "id": "kana:katakana:ト",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ト",
+      "romaji": [
+        "to"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%88.opus"
+    },
+    {
+      "id": "kana:hiragana:な",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "な",
+      "romaji": [
+        "na"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%AA.opus"
+    },
+    {
+      "id": "kana:katakana:ナ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ナ",
+      "romaji": [
+        "na"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%8A.opus"
+    },
+    {
+      "id": "kana:hiragana:に",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "に",
+      "romaji": [
+        "ni"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%AB.opus"
+    },
+    {
+      "id": "kana:katakana:ニ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ニ",
+      "romaji": [
+        "ni"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%8B.opus"
+    },
+    {
+      "id": "kana:hiragana:ぬ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぬ",
+      "romaji": [
+        "nu"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:め"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%AC.opus"
+    },
+    {
+      "id": "kana:katakana:ヌ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ヌ",
+      "romaji": [
+        "nu"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:ス"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%83%8C.opus"
+    },
+    {
+      "id": "kana:hiragana:ね",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ね",
+      "romaji": [
+        "ne"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:れ",
+        "kana:hiragana:わ"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%AD.opus"
+    },
+    {
+      "id": "kana:katakana:ネ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ネ",
+      "romaji": [
+        "ne"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%8D.opus"
+    },
+    {
+      "id": "kana:hiragana:の",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "の",
+      "romaji": [
+        "no"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%AE.opus"
+    },
+    {
+      "id": "kana:katakana:ノ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ノ",
+      "romaji": [
+        "no"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%8E.opus"
+    },
+    {
+      "id": "kana:hiragana:は",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "は",
+      "romaji": [
+        "ha"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:ほ",
+        "kana:hiragana:ま"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%AF.opus"
+    },
+    {
+      "id": "kana:katakana:ハ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ハ",
+      "romaji": [
+        "ha"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%8F.opus"
+    },
+    {
+      "id": "kana:hiragana:ひ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ひ",
+      "romaji": [
+        "hi"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B2.opus"
+    },
+    {
+      "id": "kana:katakana:ヒ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ヒ",
+      "romaji": [
+        "hi"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%92.opus"
+    },
+    {
+      "id": "kana:hiragana:ふ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ふ",
+      "romaji": [
+        "fu",
+        "hu"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B5.opus"
+    },
+    {
+      "id": "kana:katakana:フ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "フ",
+      "romaji": [
+        "fu",
+        "hu"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%95.opus"
+    },
+    {
+      "id": "kana:hiragana:へ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "へ",
+      "romaji": [
+        "he"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:ヘ"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B8.opus"
+    },
+    {
+      "id": "kana:katakana:ヘ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ヘ",
+      "romaji": [
+        "he"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:へ"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%83%98.opus"
+    },
+    {
+      "id": "kana:hiragana:ほ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ほ",
+      "romaji": [
+        "ho"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:は",
+        "kana:hiragana:ま"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%BB.opus"
+    },
+    {
+      "id": "kana:katakana:ホ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ホ",
+      "romaji": [
+        "ho"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%9B.opus"
+    },
+    {
+      "id": "kana:hiragana:ま",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ま",
+      "romaji": [
+        "ma"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:は",
+        "kana:hiragana:ほ"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%BE.opus"
+    },
+    {
+      "id": "kana:katakana:マ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "マ",
+      "romaji": [
+        "ma"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:ア"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%83%9E.opus"
+    },
+    {
+      "id": "kana:hiragana:み",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "み",
+      "romaji": [
+        "mi"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%BF.opus"
+    },
+    {
+      "id": "kana:katakana:ミ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ミ",
+      "romaji": [
+        "mi"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%9F.opus"
+    },
+    {
+      "id": "kana:hiragana:む",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "む",
+      "romaji": [
+        "mu"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%80.opus"
+    },
+    {
+      "id": "kana:katakana:ム",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ム",
+      "romaji": [
+        "mu"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%A0.opus"
+    },
+    {
+      "id": "kana:hiragana:め",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "め",
+      "romaji": [
+        "me"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:ぬ"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%81.opus"
+    },
+    {
+      "id": "kana:katakana:メ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "メ",
+      "romaji": [
+        "me"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%A1.opus"
+    },
+    {
+      "id": "kana:hiragana:も",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "も",
+      "romaji": [
+        "mo"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%82.opus"
+    },
+    {
+      "id": "kana:katakana:モ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "モ",
+      "romaji": [
+        "mo"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%A2.opus"
+    },
+    {
+      "id": "kana:hiragana:や",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "や",
+      "romaji": [
+        "ya"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%84.opus"
+    },
+    {
+      "id": "kana:katakana:ヤ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ヤ",
+      "romaji": [
+        "ya"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%A4.opus"
+    },
+    {
+      "id": "kana:hiragana:ゆ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ゆ",
+      "romaji": [
+        "yu"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%86.opus"
+    },
+    {
+      "id": "kana:katakana:ユ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ユ",
+      "romaji": [
+        "yu"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%A6.opus"
+    },
+    {
+      "id": "kana:hiragana:よ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "よ",
+      "romaji": [
+        "yo"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%88.opus"
+    },
+    {
+      "id": "kana:katakana:ヨ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ヨ",
+      "romaji": [
+        "yo"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%A8.opus"
+    },
+    {
+      "id": "kana:hiragana:ら",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ら",
+      "romaji": [
+        "ra"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%89.opus"
+    },
+    {
+      "id": "kana:katakana:ラ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ラ",
+      "romaji": [
+        "ra"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%A9.opus"
+    },
+    {
+      "id": "kana:hiragana:り",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "り",
+      "romaji": [
+        "ri"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:い",
+        "kana:katakana:リ"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%8A.opus"
+    },
+    {
+      "id": "kana:katakana:リ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "リ",
+      "romaji": [
+        "ri"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:り"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%83%AA.opus"
+    },
+    {
+      "id": "kana:hiragana:る",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "る",
+      "romaji": [
+        "ru"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:ろ"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%8B.opus"
+    },
+    {
+      "id": "kana:katakana:ル",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ル",
+      "romaji": [
+        "ru"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%AB.opus"
+    },
+    {
+      "id": "kana:hiragana:れ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "れ",
+      "romaji": [
+        "re"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:わ",
+        "kana:hiragana:ね"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%8C.opus"
+    },
+    {
+      "id": "kana:katakana:レ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "レ",
+      "romaji": [
+        "re"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%AC.opus"
+    },
+    {
+      "id": "kana:hiragana:ろ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ろ",
+      "romaji": [
+        "ro"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:る"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%8D.opus"
+    },
+    {
+      "id": "kana:katakana:ロ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ロ",
+      "romaji": [
+        "ro"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%AD.opus"
+    },
+    {
+      "id": "kana:hiragana:わ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "わ",
+      "romaji": [
+        "wa"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:hiragana:れ",
+        "kana:hiragana:ね"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%8F.opus"
+    },
+    {
+      "id": "kana:katakana:ワ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ワ",
+      "romaji": [
+        "wa"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:ク",
+        "kana:katakana:ケ"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%83%AF.opus"
+    },
+    {
+      "id": "kana:hiragana:を",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "を",
+      "romaji": [
+        "wo"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%92.opus"
+    },
+    {
+      "id": "kana:katakana:ヲ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ヲ",
+      "romaji": [
+        "wo"
+      ],
+      "group": "basic",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%B2.opus"
+    },
+    {
+      "id": "kana:hiragana:ん",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ん",
+      "romaji": [
+        "n",
+        "nn"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:ソ"
+      ],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%93.opus"
+    },
+    {
+      "id": "kana:katakana:ン",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ン",
+      "romaji": [
+        "n",
+        "nn"
+      ],
+      "group": "basic",
+      "confusableWith": [
+        "kana:katakana:ソ"
+      ],
+      "audioUrl": "/audio/kana/katakana/%E3%83%B3.opus"
+    },
+    {
+      "id": "kana:hiragana:が",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "が",
+      "romaji": [
+        "ga"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%8C.opus"
+    },
+    {
+      "id": "kana:katakana:ガ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ガ",
+      "romaji": [
+        "ga"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%AC.opus"
+    },
+    {
+      "id": "kana:hiragana:ぎ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぎ",
+      "romaji": [
+        "gi"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%8E.opus"
+    },
+    {
+      "id": "kana:katakana:ギ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ギ",
+      "romaji": [
+        "gi"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%AE.opus"
+    },
+    {
+      "id": "kana:hiragana:ぐ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぐ",
+      "romaji": [
+        "gu"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%90.opus"
+    },
+    {
+      "id": "kana:katakana:グ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "グ",
+      "romaji": [
+        "gu"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B0.opus"
+    },
+    {
+      "id": "kana:hiragana:げ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "げ",
+      "romaji": [
+        "ge"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%92.opus"
+    },
+    {
+      "id": "kana:katakana:ゲ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ゲ",
+      "romaji": [
+        "ge"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B2.opus"
+    },
+    {
+      "id": "kana:hiragana:ご",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ご",
+      "romaji": [
+        "go"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%94.opus"
+    },
+    {
+      "id": "kana:katakana:ゴ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ゴ",
+      "romaji": [
+        "go"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B4.opus"
+    },
+    {
+      "id": "kana:hiragana:ざ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ざ",
+      "romaji": [
+        "za"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%96.opus"
+    },
+    {
+      "id": "kana:katakana:ザ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ザ",
+      "romaji": [
+        "za"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B6.opus"
+    },
+    {
+      "id": "kana:hiragana:じ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "じ",
+      "romaji": [
+        "ji",
+        "zi"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%98.opus"
+    },
+    {
+      "id": "kana:katakana:ジ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ジ",
+      "romaji": [
+        "ji",
+        "zi"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B8.opus"
+    },
+    {
+      "id": "kana:hiragana:ず",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ず",
+      "romaji": [
+        "zu"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%9A.opus"
+    },
+    {
+      "id": "kana:katakana:ズ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ズ",
+      "romaji": [
+        "zu"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%BA.opus"
+    },
+    {
+      "id": "kana:hiragana:ぜ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぜ",
+      "romaji": [
+        "ze"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%9C.opus"
+    },
+    {
+      "id": "kana:katakana:ゼ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ゼ",
+      "romaji": [
+        "ze"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%BC.opus"
+    },
+    {
+      "id": "kana:hiragana:ぞ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぞ",
+      "romaji": [
+        "zo"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%9E.opus"
+    },
+    {
+      "id": "kana:katakana:ゾ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ゾ",
+      "romaji": [
+        "zo"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%BE.opus"
+    },
+    {
+      "id": "kana:hiragana:だ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "だ",
+      "romaji": [
+        "da"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%A0.opus"
+    },
+    {
+      "id": "kana:katakana:ダ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ダ",
+      "romaji": [
+        "da"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%80.opus"
+    },
+    {
+      "id": "kana:hiragana:ぢ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぢ",
+      "romaji": [
+        "di"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%A2.opus"
+    },
+    {
+      "id": "kana:katakana:ヂ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ヂ",
+      "romaji": [
+        "di"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%82.opus"
+    },
+    {
+      "id": "kana:hiragana:づ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "づ",
+      "romaji": [
+        "du"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%A5.opus"
+    },
+    {
+      "id": "kana:katakana:ヅ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ヅ",
+      "romaji": [
+        "du"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%85.opus"
+    },
+    {
+      "id": "kana:hiragana:で",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "で",
+      "romaji": [
+        "de"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%A7.opus"
+    },
+    {
+      "id": "kana:katakana:デ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "デ",
+      "romaji": [
+        "de"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%87.opus"
+    },
+    {
+      "id": "kana:hiragana:ど",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ど",
+      "romaji": [
+        "do"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%A9.opus"
+    },
+    {
+      "id": "kana:katakana:ド",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ド",
+      "romaji": [
+        "do"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%89.opus"
+    },
+    {
+      "id": "kana:hiragana:ば",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ば",
+      "romaji": [
+        "ba"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B0.opus"
+    },
+    {
+      "id": "kana:katakana:バ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "バ",
+      "romaji": [
+        "ba"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%90.opus"
+    },
+    {
+      "id": "kana:hiragana:び",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "び",
+      "romaji": [
+        "bi"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B3.opus"
+    },
+    {
+      "id": "kana:katakana:ビ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ビ",
+      "romaji": [
+        "bi"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%93.opus"
+    },
+    {
+      "id": "kana:hiragana:ぶ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぶ",
+      "romaji": [
+        "bu"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B6.opus"
+    },
+    {
+      "id": "kana:katakana:ブ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ブ",
+      "romaji": [
+        "bu"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%96.opus"
+    },
+    {
+      "id": "kana:hiragana:べ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "べ",
+      "romaji": [
+        "be"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B9.opus"
+    },
+    {
+      "id": "kana:katakana:ベ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ベ",
+      "romaji": [
+        "be"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%99.opus"
+    },
+    {
+      "id": "kana:hiragana:ぼ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぼ",
+      "romaji": [
+        "bo"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%BC.opus"
+    },
+    {
+      "id": "kana:katakana:ボ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ボ",
+      "romaji": [
+        "bo"
+      ],
+      "group": "dakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%9C.opus"
+    },
+    {
+      "id": "kana:hiragana:ぱ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぱ",
+      "romaji": [
+        "pa"
+      ],
+      "group": "handakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B1.opus"
+    },
+    {
+      "id": "kana:katakana:パ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "パ",
+      "romaji": [
+        "pa"
+      ],
+      "group": "handakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%91.opus"
+    },
+    {
+      "id": "kana:hiragana:ぴ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぴ",
+      "romaji": [
+        "pi"
+      ],
+      "group": "handakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B4.opus"
+    },
+    {
+      "id": "kana:katakana:ピ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ピ",
+      "romaji": [
+        "pi"
+      ],
+      "group": "handakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%94.opus"
+    },
+    {
+      "id": "kana:hiragana:ぷ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぷ",
+      "romaji": [
+        "pu"
+      ],
+      "group": "handakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B7.opus"
+    },
+    {
+      "id": "kana:katakana:プ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "プ",
+      "romaji": [
+        "pu"
+      ],
+      "group": "handakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%97.opus"
+    },
+    {
+      "id": "kana:hiragana:ぺ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぺ",
+      "romaji": [
+        "pe"
+      ],
+      "group": "handakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%BA.opus"
+    },
+    {
+      "id": "kana:katakana:ペ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ペ",
+      "romaji": [
+        "pe"
+      ],
+      "group": "handakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%9A.opus"
+    },
+    {
+      "id": "kana:hiragana:ぽ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぽ",
+      "romaji": [
+        "po"
+      ],
+      "group": "handakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%BD.opus"
+    },
+    {
+      "id": "kana:katakana:ポ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ポ",
+      "romaji": [
+        "po"
+      ],
+      "group": "handakuten",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%9D.opus"
+    },
+    {
+      "id": "kana:hiragana:きゃ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "きゃ",
+      "romaji": [
+        "kya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%8D%E3%82%83.opus"
+    },
+    {
+      "id": "kana:katakana:キャ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "キャ",
+      "romaji": [
+        "kya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%AD%E3%83%A3.opus"
+    },
+    {
+      "id": "kana:hiragana:きゅ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "きゅ",
+      "romaji": [
+        "kyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%8D%E3%82%85.opus"
+    },
+    {
+      "id": "kana:katakana:キュ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "キュ",
+      "romaji": [
+        "kyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%AD%E3%83%A5.opus"
+    },
+    {
+      "id": "kana:hiragana:きょ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "きょ",
+      "romaji": [
+        "kyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%8D%E3%82%87.opus"
+    },
+    {
+      "id": "kana:katakana:キョ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "キョ",
+      "romaji": [
+        "kyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%AD%E3%83%A7.opus"
+    },
+    {
+      "id": "kana:hiragana:ぎゃ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぎゃ",
+      "romaji": [
+        "gya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%8E%E3%82%83.opus"
+    },
+    {
+      "id": "kana:katakana:ギャ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ギャ",
+      "romaji": [
+        "gya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%AE%E3%83%A3.opus"
+    },
+    {
+      "id": "kana:hiragana:ぎゅ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぎゅ",
+      "romaji": [
+        "gyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%8E%E3%82%85.opus"
+    },
+    {
+      "id": "kana:katakana:ギュ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ギュ",
+      "romaji": [
+        "gyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%AE%E3%83%A5.opus"
+    },
+    {
+      "id": "kana:hiragana:ぎょ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぎょ",
+      "romaji": [
+        "gyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%8E%E3%82%87.opus"
+    },
+    {
+      "id": "kana:katakana:ギョ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ギョ",
+      "romaji": [
+        "gyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%AE%E3%83%A7.opus"
+    },
+    {
+      "id": "kana:hiragana:しゃ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "しゃ",
+      "romaji": [
+        "sha",
+        "sya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%97%E3%82%83.opus"
+    },
+    {
+      "id": "kana:katakana:シャ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "シャ",
+      "romaji": [
+        "sha",
+        "sya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B7%E3%83%A3.opus"
+    },
+    {
+      "id": "kana:hiragana:しゅ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "しゅ",
+      "romaji": [
+        "shu",
+        "syu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%97%E3%82%85.opus"
+    },
+    {
+      "id": "kana:katakana:シュ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "シュ",
+      "romaji": [
+        "shu",
+        "syu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B7%E3%83%A5.opus"
+    },
+    {
+      "id": "kana:hiragana:しょ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "しょ",
+      "romaji": [
+        "sho",
+        "syo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%97%E3%82%87.opus"
+    },
+    {
+      "id": "kana:katakana:ショ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ショ",
+      "romaji": [
+        "sho",
+        "syo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B7%E3%83%A7.opus"
+    },
+    {
+      "id": "kana:hiragana:じゃ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "じゃ",
+      "romaji": [
+        "ja",
+        "zya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%98%E3%82%83.opus"
+    },
+    {
+      "id": "kana:katakana:ジャ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ジャ",
+      "romaji": [
+        "ja",
+        "zya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B8%E3%83%A3.opus"
+    },
+    {
+      "id": "kana:hiragana:じゅ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "じゅ",
+      "romaji": [
+        "ju",
+        "zyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%98%E3%82%85.opus"
+    },
+    {
+      "id": "kana:katakana:ジュ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ジュ",
+      "romaji": [
+        "ju",
+        "zyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B8%E3%83%A5.opus"
+    },
+    {
+      "id": "kana:hiragana:じょ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "じょ",
+      "romaji": [
+        "jo",
+        "zyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%98%E3%82%87.opus"
+    },
+    {
+      "id": "kana:katakana:ジョ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ジョ",
+      "romaji": [
+        "jo",
+        "zyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%82%B8%E3%83%A7.opus"
+    },
+    {
+      "id": "kana:hiragana:ちゃ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ちゃ",
+      "romaji": [
+        "cha",
+        "tya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%A1%E3%82%83.opus"
+    },
+    {
+      "id": "kana:katakana:チャ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "チャ",
+      "romaji": [
+        "cha",
+        "tya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%81%E3%83%A3.opus"
+    },
+    {
+      "id": "kana:hiragana:ちゅ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ちゅ",
+      "romaji": [
+        "chu",
+        "tyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%A1%E3%82%85.opus"
+    },
+    {
+      "id": "kana:katakana:チュ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "チュ",
+      "romaji": [
+        "chu",
+        "tyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%81%E3%83%A5.opus"
+    },
+    {
+      "id": "kana:hiragana:ちょ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ちょ",
+      "romaji": [
+        "cho",
+        "tyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%A1%E3%82%87.opus"
+    },
+    {
+      "id": "kana:katakana:チョ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "チョ",
+      "romaji": [
+        "cho",
+        "tyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%81%E3%83%A7.opus"
+    },
+    {
+      "id": "kana:hiragana:にゃ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "にゃ",
+      "romaji": [
+        "nya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%AB%E3%82%83.opus"
+    },
+    {
+      "id": "kana:katakana:ニャ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ニャ",
+      "romaji": [
+        "nya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%8B%E3%83%A3.opus"
+    },
+    {
+      "id": "kana:hiragana:にゅ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "にゅ",
+      "romaji": [
+        "nyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%AB%E3%82%85.opus"
+    },
+    {
+      "id": "kana:katakana:ニュ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ニュ",
+      "romaji": [
+        "nyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%8B%E3%83%A5.opus"
+    },
+    {
+      "id": "kana:hiragana:にょ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "にょ",
+      "romaji": [
+        "nyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%AB%E3%82%87.opus"
+    },
+    {
+      "id": "kana:katakana:ニョ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ニョ",
+      "romaji": [
+        "nyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%8B%E3%83%A7.opus"
+    },
+    {
+      "id": "kana:hiragana:ひゃ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ひゃ",
+      "romaji": [
+        "hya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B2%E3%82%83.opus"
+    },
+    {
+      "id": "kana:katakana:ヒャ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ヒャ",
+      "romaji": [
+        "hya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%92%E3%83%A3.opus"
+    },
+    {
+      "id": "kana:hiragana:ひゅ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ひゅ",
+      "romaji": [
+        "hyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B2%E3%82%85.opus"
+    },
+    {
+      "id": "kana:katakana:ヒュ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ヒュ",
+      "romaji": [
+        "hyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%92%E3%83%A5.opus"
+    },
+    {
+      "id": "kana:hiragana:ひょ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ひょ",
+      "romaji": [
+        "hyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B2%E3%82%87.opus"
+    },
+    {
+      "id": "kana:katakana:ヒョ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ヒョ",
+      "romaji": [
+        "hyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%92%E3%83%A7.opus"
+    },
+    {
+      "id": "kana:hiragana:びゃ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "びゃ",
+      "romaji": [
+        "bya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B3%E3%82%83.opus"
+    },
+    {
+      "id": "kana:katakana:ビャ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ビャ",
+      "romaji": [
+        "bya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%93%E3%83%A3.opus"
+    },
+    {
+      "id": "kana:hiragana:びゅ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "びゅ",
+      "romaji": [
+        "byu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B3%E3%82%85.opus"
+    },
+    {
+      "id": "kana:katakana:ビュ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ビュ",
+      "romaji": [
+        "byu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%93%E3%83%A5.opus"
+    },
+    {
+      "id": "kana:hiragana:びょ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "びょ",
+      "romaji": [
+        "byo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B3%E3%82%87.opus"
+    },
+    {
+      "id": "kana:katakana:ビョ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ビョ",
+      "romaji": [
+        "byo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%93%E3%83%A7.opus"
+    },
+    {
+      "id": "kana:hiragana:ぴゃ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぴゃ",
+      "romaji": [
+        "pya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B4%E3%82%83.opus"
+    },
+    {
+      "id": "kana:katakana:ピャ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ピャ",
+      "romaji": [
+        "pya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%94%E3%83%A3.opus"
+    },
+    {
+      "id": "kana:hiragana:ぴゅ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぴゅ",
+      "romaji": [
+        "pyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B4%E3%82%85.opus"
+    },
+    {
+      "id": "kana:katakana:ピュ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ピュ",
+      "romaji": [
+        "pyu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%94%E3%83%A5.opus"
+    },
+    {
+      "id": "kana:hiragana:ぴょ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "ぴょ",
+      "romaji": [
+        "pyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%B4%E3%82%87.opus"
+    },
+    {
+      "id": "kana:katakana:ピョ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ピョ",
+      "romaji": [
+        "pyo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%94%E3%83%A7.opus"
+    },
+    {
+      "id": "kana:hiragana:みゃ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "みゃ",
+      "romaji": [
+        "mya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%BF%E3%82%83.opus"
+    },
+    {
+      "id": "kana:katakana:ミャ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ミャ",
+      "romaji": [
+        "mya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%9F%E3%83%A3.opus"
+    },
+    {
+      "id": "kana:hiragana:みゅ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "みゅ",
+      "romaji": [
+        "myu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%BF%E3%82%85.opus"
+    },
+    {
+      "id": "kana:katakana:ミュ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ミュ",
+      "romaji": [
+        "myu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%9F%E3%83%A5.opus"
+    },
+    {
+      "id": "kana:hiragana:みょ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "みょ",
+      "romaji": [
+        "myo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%81%BF%E3%82%87.opus"
+    },
+    {
+      "id": "kana:katakana:ミョ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "ミョ",
+      "romaji": [
+        "myo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%9F%E3%83%A7.opus"
+    },
+    {
+      "id": "kana:hiragana:りゃ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "りゃ",
+      "romaji": [
+        "rya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%8A%E3%82%83.opus"
+    },
+    {
+      "id": "kana:katakana:リャ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "リャ",
+      "romaji": [
+        "rya"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%AA%E3%83%A3.opus"
+    },
+    {
+      "id": "kana:hiragana:りゅ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "りゅ",
+      "romaji": [
+        "ryu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%8A%E3%82%85.opus"
+    },
+    {
+      "id": "kana:katakana:リュ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "リュ",
+      "romaji": [
+        "ryu"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%AA%E3%83%A5.opus"
+    },
+    {
+      "id": "kana:hiragana:りょ",
+      "type": "kana",
+      "script": "hiragana",
+      "char": "りょ",
+      "romaji": [
+        "ryo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/hiragana/%E3%82%8A%E3%82%87.opus"
+    },
+    {
+      "id": "kana:katakana:リョ",
+      "type": "kana",
+      "script": "katakana",
+      "char": "リョ",
+      "romaji": [
+        "ryo"
+      ],
+      "group": "yoon",
+      "confusableWith": [],
+      "audioUrl": "/audio/kana/katakana/%E3%83%AA%E3%83%A7.opus"
+    }
+  ]
+}

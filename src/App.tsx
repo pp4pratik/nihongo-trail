@@ -1,10 +1,17 @@
-// Phase 0 scaffold only — no UI yet (docs/REQUIREMENTS.md Appendix D).
-// Screens land in Phase 1 per §16.
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HomeScreen } from './app/screens/HomeScreen'
+import { SessionScreen } from './app/screens/SessionScreen'
+import { SessionCompleteScreen } from './app/screens/SessionCompleteScreen'
+
 function App() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-neutral-950 text-neutral-100">
-      <p className="text-sm text-neutral-500">Nihongo Trail — Phase 0 scaffold</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomeScreen />} />
+        <Route path="/session" element={<SessionScreen />} />
+        <Route path="/session-complete" element={<SessionCompleteScreen />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

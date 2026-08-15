@@ -1,0 +1,4369 @@
+{
+  "stages": [
+    {
+      "id": "stage:0",
+      "index": 0,
+      "name": "Kana Foundations",
+      "description": "Hiragana, then katakana. No kanji, no grammar. (§5.2)",
+      "unitIds": [
+        "unit:stage0:hiragana",
+        "unit:stage0:katakana"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "unit:stage0:hiragana",
+      "stageId": "stage:0",
+      "index": 0,
+      "name": "Hiragana",
+      "theme": "Kana Foundations — Hiragana",
+      "lessonIds": [
+        "lesson:stage0:unit:stage0:hiragana:0",
+        "lesson:stage0:unit:stage0:hiragana:1",
+        "lesson:stage0:unit:stage0:hiragana:2",
+        "lesson:stage0:unit:stage0:hiragana:3",
+        "lesson:stage0:unit:stage0:hiragana:4",
+        "lesson:stage0:unit:stage0:hiragana:5",
+        "lesson:stage0:unit:stage0:hiragana:6",
+        "lesson:stage0:unit:stage0:hiragana:7",
+        "lesson:stage0:unit:stage0:hiragana:8",
+        "lesson:stage0:unit:stage0:hiragana:9",
+        "lesson:stage0:unit:stage0:hiragana:10",
+        "lesson:stage0:unit:stage0:hiragana:11",
+        "lesson:stage0:unit:stage0:hiragana:12",
+        "lesson:stage0:unit:stage0:hiragana:13",
+        "lesson:stage0:unit:stage0:hiragana:14",
+        "lesson:stage0:unit:stage0:hiragana:15",
+        "lesson:stage0:unit:stage0:hiragana:16",
+        "lesson:stage0:unit:stage0:hiragana:17",
+        "lesson:stage0:unit:stage0:hiragana:18",
+        "lesson:stage0:unit:stage0:hiragana:19",
+        "lesson:stage0:unit:stage0:hiragana:20",
+        "lesson:stage0:unit:stage0:hiragana:21",
+        "lesson:stage0:unit:stage0:hiragana:22",
+        "lesson:stage0:unit:stage0:hiragana:23",
+        "lesson:stage0:unit:stage0:hiragana:24",
+        "lesson:stage0:unit:stage0:hiragana:25",
+        "lesson:stage0:unit:stage0:hiragana:26",
+        "lesson:stage0:unit:stage0:hiragana:27",
+        "lesson:stage0:unit:stage0:hiragana:28",
+        "lesson:stage0:unit:stage0:hiragana:29",
+        "lesson:stage0:unit:stage0:hiragana:30",
+        "lesson:stage0:unit:stage0:hiragana:31",
+        "lesson:stage0:unit:stage0:hiragana:32",
+        "lesson:stage0:unit:stage0:hiragana:33",
+        "lesson:stage0:unit:stage0:hiragana:34"
+      ],
+      "introducesItems": [
+        "kana:hiragana:あ",
+        "kana:hiragana:い",
+        "kana:hiragana:う",
+        "kana:hiragana:え",
+        "kana:hiragana:お",
+        "kana:hiragana:か",
+        "kana:hiragana:き",
+        "kana:hiragana:く",
+        "kana:hiragana:け",
+        "kana:hiragana:こ",
+        "kana:hiragana:さ",
+        "kana:hiragana:し",
+        "kana:hiragana:す",
+        "kana:hiragana:せ",
+        "kana:hiragana:そ",
+        "kana:hiragana:た",
+        "kana:hiragana:ち",
+        "kana:hiragana:つ",
+        "kana:hiragana:て",
+        "kana:hiragana:と",
+        "kana:hiragana:な",
+        "kana:hiragana:に",
+        "kana:hiragana:ぬ",
+        "kana:hiragana:ね",
+        "kana:hiragana:の",
+        "kana:hiragana:は",
+        "kana:hiragana:ひ",
+        "kana:hiragana:ふ",
+        "kana:hiragana:へ",
+        "kana:hiragana:ほ",
+        "kana:hiragana:ま",
+        "kana:hiragana:み",
+        "kana:hiragana:む",
+        "kana:hiragana:め",
+        "kana:hiragana:も",
+        "kana:hiragana:や",
+        "kana:hiragana:ゆ",
+        "kana:hiragana:よ",
+        "kana:hiragana:ら",
+        "kana:hiragana:り",
+        "kana:hiragana:る",
+        "kana:hiragana:れ",
+        "kana:hiragana:ろ",
+        "kana:hiragana:わ",
+        "kana:hiragana:を",
+        "kana:hiragana:ん",
+        "kana:hiragana:が",
+        "kana:hiragana:ぎ",
+        "kana:hiragana:ぐ",
+        "kana:hiragana:げ",
+        "kana:hiragana:ご",
+        "kana:hiragana:ざ",
+        "kana:hiragana:じ",
+        "kana:hiragana:ず",
+        "kana:hiragana:ぜ",
+        "kana:hiragana:ぞ",
+        "kana:hiragana:だ",
+        "kana:hiragana:ぢ",
+        "kana:hiragana:づ",
+        "kana:hiragana:で",
+        "kana:hiragana:ど",
+        "kana:hiragana:ば",
+        "kana:hiragana:び",
+        "kana:hiragana:ぶ",
+        "kana:hiragana:べ",
+        "kana:hiragana:ぼ",
+        "kana:hiragana:ぱ",
+        "kana:hiragana:ぴ",
+        "kana:hiragana:ぷ",
+        "kana:hiragana:ぺ",
+        "kana:hiragana:ぽ",
+        "kana:hiragana:きゃ",
+        "kana:hiragana:きゅ",
+        "kana:hiragana:きょ",
+        "kana:hiragana:ぎゃ",
+        "kana:hiragana:ぎゅ",
+        "kana:hiragana:ぎょ",
+        "kana:hiragana:しゃ",
+        "kana:hiragana:しゅ",
+        "kana:hiragana:しょ",
+        "kana:hiragana:じゃ",
+        "kana:hiragana:じゅ",
+        "kana:hiragana:じょ",
+        "kana:hiragana:ちゃ",
+        "kana:hiragana:ちゅ",
+        "kana:hiragana:ちょ",
+        "kana:hiragana:にゃ",
+        "kana:hiragana:にゅ",
+        "kana:hiragana:にょ",
+        "kana:hiragana:ひゃ",
+        "kana:hiragana:ひゅ",
+        "kana:hiragana:ひょ",
+        "kana:hiragana:びゃ",
+        "kana:hiragana:びゅ",
+        "kana:hiragana:びょ",
+        "kana:hiragana:ぴゃ",
+        "kana:hiragana:ぴゅ",
+        "kana:hiragana:ぴょ",
+        "kana:hiragana:みゃ",
+        "kana:hiragana:みゅ",
+        "kana:hiragana:みょ",
+        "kana:hiragana:りゃ",
+        "kana:hiragana:りゅ",
+        "kana:hiragana:りょ"
+      ],
+      "prerequisiteUnitIds": []
+    },
+    {
+      "id": "unit:stage0:katakana",
+      "stageId": "stage:0",
+      "index": 1,
+      "name": "Katakana",
+      "theme": "Kana Foundations — Katakana",
+      "lessonIds": [
+        "lesson:stage0:unit:stage0:katakana:0",
+        "lesson:stage0:unit:stage0:katakana:1",
+        "lesson:stage0:unit:stage0:katakana:2",
+        "lesson:stage0:unit:stage0:katakana:3",
+        "lesson:stage0:unit:stage0:katakana:4",
+        "lesson:stage0:unit:stage0:katakana:5",
+        "lesson:stage0:unit:stage0:katakana:6",
+        "lesson:stage0:unit:stage0:katakana:7",
+        "lesson:stage0:unit:stage0:katakana:8",
+        "lesson:stage0:unit:stage0:katakana:9",
+        "lesson:stage0:unit:stage0:katakana:10",
+        "lesson:stage0:unit:stage0:katakana:11",
+        "lesson:stage0:unit:stage0:katakana:12",
+        "lesson:stage0:unit:stage0:katakana:13",
+        "lesson:stage0:unit:stage0:katakana:14",
+        "lesson:stage0:unit:stage0:katakana:15",
+        "lesson:stage0:unit:stage0:katakana:16",
+        "lesson:stage0:unit:stage0:katakana:17",
+        "lesson:stage0:unit:stage0:katakana:18",
+        "lesson:stage0:unit:stage0:katakana:19",
+        "lesson:stage0:unit:stage0:katakana:20",
+        "lesson:stage0:unit:stage0:katakana:21",
+        "lesson:stage0:unit:stage0:katakana:22",
+        "lesson:stage0:unit:stage0:katakana:23",
+        "lesson:stage0:unit:stage0:katakana:24",
+        "lesson:stage0:unit:stage0:katakana:25",
+        "lesson:stage0:unit:stage0:katakana:26",
+        "lesson:stage0:unit:stage0:katakana:27",
+        "lesson:stage0:unit:stage0:katakana:28",
+        "lesson:stage0:unit:stage0:katakana:29",
+        "lesson:stage0:unit:stage0:katakana:30",
+        "lesson:stage0:unit:stage0:katakana:31",
+        "lesson:stage0:unit:stage0:katakana:32"
+      ],
+      "introducesItems": [
+        "kana:katakana:ア",
+        "kana:katakana:イ",
+        "kana:katakana:ウ",
+        "kana:katakana:エ",
+        "kana:katakana:オ",
+        "kana:katakana:カ",
+        "kana:katakana:キ",
+        "kana:katakana:ク",
+        "kana:katakana:ケ",
+        "kana:katakana:コ",
+        "kana:katakana:サ",
+        "kana:katakana:シ",
+        "kana:katakana:ス",
+        "kana:katakana:セ",
+        "kana:katakana:ソ",
+        "kana:katakana:タ",
+        "kana:katakana:チ",
+        "kana:katakana:ツ",
+        "kana:katakana:テ",
+        "kana:katakana:ト",
+        "kana:katakana:ナ",
+        "kana:katakana:ニ",
+        "kana:katakana:ヌ",
+        "kana:katakana:ネ",
+        "kana:katakana:ノ",
+        "kana:katakana:ハ",
+        "kana:katakana:ヒ",
+        "kana:katakana:フ",
+        "kana:katakana:ヘ",
+        "kana:katakana:ホ",
+        "kana:katakana:マ",
+        "kana:katakana:ミ",
+        "kana:katakana:ム",
+        "kana:katakana:メ",
+        "kana:katakana:モ",
+        "kana:katakana:ヤ",
+        "kana:katakana:ユ",
+        "kana:katakana:ヨ",
+        "kana:katakana:ラ",
+        "kana:katakana:リ",
+        "kana:katakana:ル",
+        "kana:katakana:レ",
+        "kana:katakana:ロ",
+        "kana:katakana:ワ",
+        "kana:katakana:ヲ",
+        "kana:katakana:ン",
+        "kana:katakana:ガ",
+        "kana:katakana:ギ",
+        "kana:katakana:グ",
+        "kana:katakana:ゲ",
+        "kana:katakana:ゴ",
+        "kana:katakana:ザ",
+        "kana:katakana:ジ",
+        "kana:katakana:ズ",
+        "kana:katakana:ゼ",
+        "kana:katakana:ゾ",
+        "kana:katakana:ダ",
+        "kana:katakana:ヂ",
+        "kana:katakana:ヅ",
+        "kana:katakana:デ",
+        "kana:katakana:ド",
+        "kana:katakana:バ",
+        "kana:katakana:ビ",
+        "kana:katakana:ブ",
+        "kana:katakana:ベ",
+        "kana:katakana:ボ",
+        "kana:katakana:パ",
+        "kana:katakana:ピ",
+        "kana:katakana:プ",
+        "kana:katakana:ペ",
+        "kana:katakana:ポ",
+        "kana:katakana:キャ",
+        "kana:katakana:キュ",
+        "kana:katakana:キョ",
+        "kana:katakana:ギャ",
+        "kana:katakana:ギュ",
+        "kana:katakana:ギョ",
+        "kana:katakana:シャ",
+        "kana:katakana:シュ",
+        "kana:katakana:ショ",
+        "kana:katakana:ジャ",
+        "kana:katakana:ジュ",
+        "kana:katakana:ジョ",
+        "kana:katakana:チャ",
+        "kana:katakana:チュ",
+        "kana:katakana:チョ",
+        "kana:katakana:ニャ",
+        "kana:katakana:ニュ",
+        "kana:katakana:ニョ",
+        "kana:katakana:ヒャ",
+        "kana:katakana:ヒュ",
+        "kana:katakana:ヒョ",
+        "kana:katakana:ビャ",
+        "kana:katakana:ビュ",
+        "kana:katakana:ビョ",
+        "kana:katakana:ピャ",
+        "kana:katakana:ピュ",
+        "kana:katakana:ピョ",
+        "kana:katakana:ミャ",
+        "kana:katakana:ミュ",
+        "kana:katakana:ミョ",
+        "kana:katakana:リャ",
+        "kana:katakana:リュ",
+        "kana:katakana:リョ"
+      ],
+      "prerequisiteUnitIds": [
+        "unit:stage0:hiragana"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:0",
+      "unitId": "unit:stage0:hiragana",
+      "index": 0,
+      "kind": "kana_intro",
+      "title": "あ い う え お",
+      "introducesItems": [
+        "kana:hiragana:あ",
+        "kana:hiragana:い",
+        "kana:hiragana:う",
+        "kana:hiragana:え",
+        "kana:hiragana:お"
+      ],
+      "practicesItems": [
+        "kana:hiragana:あ",
+        "kana:hiragana:い",
+        "kana:hiragana:う",
+        "kana:hiragana:え",
+        "kana:hiragana:お"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:あ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:あ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:い"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:い"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:う"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:う"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:え"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:え"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:お"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:お"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:1",
+      "unitId": "unit:stage0:hiragana",
+      "index": 1,
+      "kind": "kana_intro",
+      "title": "か き く け こ",
+      "introducesItems": [
+        "kana:hiragana:か",
+        "kana:hiragana:き",
+        "kana:hiragana:く",
+        "kana:hiragana:け",
+        "kana:hiragana:こ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:か",
+        "kana:hiragana:き",
+        "kana:hiragana:く",
+        "kana:hiragana:け",
+        "kana:hiragana:こ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:か"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:か"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:き"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:き"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:く"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:く"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:け"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:け"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:こ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:こ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:2",
+      "unitId": "unit:stage0:hiragana",
+      "index": 2,
+      "kind": "kana_review",
+      "title": "Review: あいうえお + かきくけこ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:hiragana:あ",
+        "kana:hiragana:い",
+        "kana:hiragana:う",
+        "kana:hiragana:え",
+        "kana:hiragana:お",
+        "kana:hiragana:か",
+        "kana:hiragana:き",
+        "kana:hiragana:く",
+        "kana:hiragana:け",
+        "kana:hiragana:こ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:あ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:い"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:う"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:え"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:お"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:か"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:き"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:く"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:け"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:こ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:3",
+      "unitId": "unit:stage0:hiragana",
+      "index": 3,
+      "kind": "kana_intro",
+      "title": "さ し す せ そ",
+      "introducesItems": [
+        "kana:hiragana:さ",
+        "kana:hiragana:し",
+        "kana:hiragana:す",
+        "kana:hiragana:せ",
+        "kana:hiragana:そ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:さ",
+        "kana:hiragana:し",
+        "kana:hiragana:す",
+        "kana:hiragana:せ",
+        "kana:hiragana:そ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:さ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:さ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:し"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:し"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:す"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:す"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:せ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:せ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:そ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:そ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:4",
+      "unitId": "unit:stage0:hiragana",
+      "index": 4,
+      "kind": "kana_intro",
+      "title": "た ち つ て と",
+      "introducesItems": [
+        "kana:hiragana:た",
+        "kana:hiragana:ち",
+        "kana:hiragana:つ",
+        "kana:hiragana:て",
+        "kana:hiragana:と"
+      ],
+      "practicesItems": [
+        "kana:hiragana:た",
+        "kana:hiragana:ち",
+        "kana:hiragana:つ",
+        "kana:hiragana:て",
+        "kana:hiragana:と"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:た"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:た"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ち"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ち"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:つ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:つ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:て"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:て"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:と"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:と"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:5",
+      "unitId": "unit:stage0:hiragana",
+      "index": 5,
+      "kind": "kana_review",
+      "title": "Review: さしすせそ + たちつてと",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:hiragana:さ",
+        "kana:hiragana:し",
+        "kana:hiragana:す",
+        "kana:hiragana:せ",
+        "kana:hiragana:そ",
+        "kana:hiragana:た",
+        "kana:hiragana:ち",
+        "kana:hiragana:つ",
+        "kana:hiragana:て",
+        "kana:hiragana:と"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:さ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:し"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:す"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:せ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:そ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:た"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ち"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:つ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:て"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:と"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:6",
+      "unitId": "unit:stage0:hiragana",
+      "index": 6,
+      "kind": "kana_intro",
+      "title": "な に ぬ ね の",
+      "introducesItems": [
+        "kana:hiragana:な",
+        "kana:hiragana:に",
+        "kana:hiragana:ぬ",
+        "kana:hiragana:ね",
+        "kana:hiragana:の"
+      ],
+      "practicesItems": [
+        "kana:hiragana:な",
+        "kana:hiragana:に",
+        "kana:hiragana:ぬ",
+        "kana:hiragana:ね",
+        "kana:hiragana:の"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:な"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:な"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:に"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:に"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぬ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぬ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ね"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ね"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:の"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:の"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:7",
+      "unitId": "unit:stage0:hiragana",
+      "index": 7,
+      "kind": "kana_intro",
+      "title": "は ひ ふ へ",
+      "introducesItems": [
+        "kana:hiragana:は",
+        "kana:hiragana:ひ",
+        "kana:hiragana:ふ",
+        "kana:hiragana:へ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:は",
+        "kana:hiragana:ひ",
+        "kana:hiragana:ふ",
+        "kana:hiragana:へ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:は"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:は"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ひ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ひ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ふ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ふ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:へ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:へ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:8",
+      "unitId": "unit:stage0:hiragana",
+      "index": 8,
+      "kind": "kana_review",
+      "title": "Review: なにぬねの + はひふへ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:hiragana:な",
+        "kana:hiragana:に",
+        "kana:hiragana:ぬ",
+        "kana:hiragana:ね",
+        "kana:hiragana:の",
+        "kana:hiragana:は",
+        "kana:hiragana:ひ",
+        "kana:hiragana:ふ",
+        "kana:hiragana:へ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:な"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:に"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:ぬ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ね"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:の"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:は"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ひ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:ふ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:へ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:9",
+      "unitId": "unit:stage0:hiragana",
+      "index": 9,
+      "kind": "kana_intro",
+      "title": "ほ",
+      "introducesItems": [
+        "kana:hiragana:ほ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:ほ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ほ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ほ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:10",
+      "unitId": "unit:stage0:hiragana",
+      "index": 10,
+      "kind": "kana_intro",
+      "title": "ま み む め も",
+      "introducesItems": [
+        "kana:hiragana:ま",
+        "kana:hiragana:み",
+        "kana:hiragana:む",
+        "kana:hiragana:め",
+        "kana:hiragana:も"
+      ],
+      "practicesItems": [
+        "kana:hiragana:ま",
+        "kana:hiragana:み",
+        "kana:hiragana:む",
+        "kana:hiragana:め",
+        "kana:hiragana:も"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ま"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ま"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:み"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:み"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:む"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:む"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:め"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:め"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:も"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:も"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:11",
+      "unitId": "unit:stage0:hiragana",
+      "index": 11,
+      "kind": "kana_review",
+      "title": "Review: ほ + まみむめも",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:hiragana:ほ",
+        "kana:hiragana:ま",
+        "kana:hiragana:み",
+        "kana:hiragana:む",
+        "kana:hiragana:め",
+        "kana:hiragana:も"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ほ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:ま"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:み"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:む"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:め"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:も"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:12",
+      "unitId": "unit:stage0:hiragana",
+      "index": 12,
+      "kind": "kana_intro",
+      "title": "や ゆ よ ら り",
+      "introducesItems": [
+        "kana:hiragana:や",
+        "kana:hiragana:ゆ",
+        "kana:hiragana:よ",
+        "kana:hiragana:ら",
+        "kana:hiragana:り"
+      ],
+      "practicesItems": [
+        "kana:hiragana:や",
+        "kana:hiragana:ゆ",
+        "kana:hiragana:よ",
+        "kana:hiragana:ら",
+        "kana:hiragana:り"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:や"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:や"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ゆ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ゆ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:よ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:よ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ら"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ら"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:り"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:り"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:13",
+      "unitId": "unit:stage0:hiragana",
+      "index": 13,
+      "kind": "kana_intro",
+      "title": "る れ",
+      "introducesItems": [
+        "kana:hiragana:る",
+        "kana:hiragana:れ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:る",
+        "kana:hiragana:れ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:る"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:る"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:れ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:れ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:14",
+      "unitId": "unit:stage0:hiragana",
+      "index": 14,
+      "kind": "kana_review",
+      "title": "Review: やゆよらり + るれ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:hiragana:や",
+        "kana:hiragana:ゆ",
+        "kana:hiragana:よ",
+        "kana:hiragana:ら",
+        "kana:hiragana:り",
+        "kana:hiragana:る",
+        "kana:hiragana:れ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:や"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:ゆ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:よ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ら"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:り"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:る"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:れ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:15",
+      "unitId": "unit:stage0:hiragana",
+      "index": 15,
+      "kind": "kana_intro",
+      "title": "ろ わ を ん が",
+      "introducesItems": [
+        "kana:hiragana:ろ",
+        "kana:hiragana:わ",
+        "kana:hiragana:を",
+        "kana:hiragana:ん",
+        "kana:hiragana:が"
+      ],
+      "practicesItems": [
+        "kana:hiragana:ろ",
+        "kana:hiragana:わ",
+        "kana:hiragana:を",
+        "kana:hiragana:ん",
+        "kana:hiragana:が"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ろ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ろ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:わ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:わ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:を"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:を"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ん"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ん"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:が"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:が"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:16",
+      "unitId": "unit:stage0:hiragana",
+      "index": 16,
+      "kind": "kana_intro",
+      "title": "ぎ ぐ げ ご ざ",
+      "introducesItems": [
+        "kana:hiragana:ぎ",
+        "kana:hiragana:ぐ",
+        "kana:hiragana:げ",
+        "kana:hiragana:ご",
+        "kana:hiragana:ざ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:ぎ",
+        "kana:hiragana:ぐ",
+        "kana:hiragana:げ",
+        "kana:hiragana:ご",
+        "kana:hiragana:ざ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぎ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぎ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぐ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぐ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:げ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:げ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ご"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ご"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ざ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ざ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:17",
+      "unitId": "unit:stage0:hiragana",
+      "index": 17,
+      "kind": "kana_review",
+      "title": "Review: ろわをんが + ぎぐげござ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:hiragana:ろ",
+        "kana:hiragana:わ",
+        "kana:hiragana:を",
+        "kana:hiragana:ん",
+        "kana:hiragana:が",
+        "kana:hiragana:ぎ",
+        "kana:hiragana:ぐ",
+        "kana:hiragana:げ",
+        "kana:hiragana:ご",
+        "kana:hiragana:ざ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ろ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:わ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:を"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ん"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:が"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:ぎ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぐ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:げ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:ご"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ざ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:18",
+      "unitId": "unit:stage0:hiragana",
+      "index": 18,
+      "kind": "kana_intro",
+      "title": "じ ず ぜ ぞ だ",
+      "introducesItems": [
+        "kana:hiragana:じ",
+        "kana:hiragana:ず",
+        "kana:hiragana:ぜ",
+        "kana:hiragana:ぞ",
+        "kana:hiragana:だ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:じ",
+        "kana:hiragana:ず",
+        "kana:hiragana:ぜ",
+        "kana:hiragana:ぞ",
+        "kana:hiragana:だ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:じ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:じ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ず"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ず"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぜ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぜ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぞ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぞ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:だ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:だ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:19",
+      "unitId": "unit:stage0:hiragana",
+      "index": 19,
+      "kind": "kana_intro",
+      "title": "ぢ づ で ど ば",
+      "introducesItems": [
+        "kana:hiragana:ぢ",
+        "kana:hiragana:づ",
+        "kana:hiragana:で",
+        "kana:hiragana:ど",
+        "kana:hiragana:ば"
+      ],
+      "practicesItems": [
+        "kana:hiragana:ぢ",
+        "kana:hiragana:づ",
+        "kana:hiragana:で",
+        "kana:hiragana:ど",
+        "kana:hiragana:ば"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぢ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぢ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:づ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:づ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:で"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:で"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ど"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ど"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ば"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ば"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:20",
+      "unitId": "unit:stage0:hiragana",
+      "index": 20,
+      "kind": "kana_review",
+      "title": "Review: じずぜぞだ + ぢづでどば",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:hiragana:じ",
+        "kana:hiragana:ず",
+        "kana:hiragana:ぜ",
+        "kana:hiragana:ぞ",
+        "kana:hiragana:だ",
+        "kana:hiragana:ぢ",
+        "kana:hiragana:づ",
+        "kana:hiragana:で",
+        "kana:hiragana:ど",
+        "kana:hiragana:ば"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:じ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:ず"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:ぜ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぞ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:だ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:ぢ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:づ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:で"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:ど"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ば"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:21",
+      "unitId": "unit:stage0:hiragana",
+      "index": 21,
+      "kind": "kana_intro",
+      "title": "び ぶ べ ぼ ぱ",
+      "introducesItems": [
+        "kana:hiragana:び",
+        "kana:hiragana:ぶ",
+        "kana:hiragana:べ",
+        "kana:hiragana:ぼ",
+        "kana:hiragana:ぱ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:び",
+        "kana:hiragana:ぶ",
+        "kana:hiragana:べ",
+        "kana:hiragana:ぼ",
+        "kana:hiragana:ぱ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:び"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:び"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぶ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぶ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:べ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:べ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぼ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぼ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぱ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぱ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:22",
+      "unitId": "unit:stage0:hiragana",
+      "index": 22,
+      "kind": "kana_intro",
+      "title": "ぴ ぷ ぺ ぽ きゃ",
+      "introducesItems": [
+        "kana:hiragana:ぴ",
+        "kana:hiragana:ぷ",
+        "kana:hiragana:ぺ",
+        "kana:hiragana:ぽ",
+        "kana:hiragana:きゃ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:ぴ",
+        "kana:hiragana:ぷ",
+        "kana:hiragana:ぺ",
+        "kana:hiragana:ぽ",
+        "kana:hiragana:きゃ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぴ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぴ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぷ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぷ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぺ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぺ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぽ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぽ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:きゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:きゃ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:23",
+      "unitId": "unit:stage0:hiragana",
+      "index": 23,
+      "kind": "kana_review",
+      "title": "Review: びぶべぼぱ + ぴぷぺぽきゃ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:hiragana:び",
+        "kana:hiragana:ぶ",
+        "kana:hiragana:べ",
+        "kana:hiragana:ぼ",
+        "kana:hiragana:ぱ",
+        "kana:hiragana:ぴ",
+        "kana:hiragana:ぷ",
+        "kana:hiragana:ぺ",
+        "kana:hiragana:ぽ",
+        "kana:hiragana:きゃ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:び"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:ぶ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:べ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぼ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:ぱ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:ぴ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぷ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:ぺ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:ぽ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:きゃ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:24",
+      "unitId": "unit:stage0:hiragana",
+      "index": 24,
+      "kind": "kana_intro",
+      "title": "きゅ きょ ぎゃ ぎゅ ぎょ",
+      "introducesItems": [
+        "kana:hiragana:きゅ",
+        "kana:hiragana:きょ",
+        "kana:hiragana:ぎゃ",
+        "kana:hiragana:ぎゅ",
+        "kana:hiragana:ぎょ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:きゅ",
+        "kana:hiragana:きょ",
+        "kana:hiragana:ぎゃ",
+        "kana:hiragana:ぎゅ",
+        "kana:hiragana:ぎょ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:きゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:きゅ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:きょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:きょ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぎゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぎゃ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぎゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぎゅ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぎょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぎょ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:25",
+      "unitId": "unit:stage0:hiragana",
+      "index": 25,
+      "kind": "kana_intro",
+      "title": "しゃ しゅ しょ じゃ じゅ",
+      "introducesItems": [
+        "kana:hiragana:しゃ",
+        "kana:hiragana:しゅ",
+        "kana:hiragana:しょ",
+        "kana:hiragana:じゃ",
+        "kana:hiragana:じゅ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:しゃ",
+        "kana:hiragana:しゅ",
+        "kana:hiragana:しょ",
+        "kana:hiragana:じゃ",
+        "kana:hiragana:じゅ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:しゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:しゃ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:しゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:しゅ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:しょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:しょ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:じゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:じゃ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:じゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:じゅ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:26",
+      "unitId": "unit:stage0:hiragana",
+      "index": 26,
+      "kind": "kana_review",
+      "title": "Review: きゅきょぎゃぎゅぎょ + しゃしゅしょじゃじゅ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:hiragana:きゅ",
+        "kana:hiragana:きょ",
+        "kana:hiragana:ぎゃ",
+        "kana:hiragana:ぎゅ",
+        "kana:hiragana:ぎょ",
+        "kana:hiragana:しゃ",
+        "kana:hiragana:しゅ",
+        "kana:hiragana:しょ",
+        "kana:hiragana:じゃ",
+        "kana:hiragana:じゅ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:きゅ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:きょ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:ぎゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぎゅ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:ぎょ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:しゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:しゅ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:しょ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:じゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:じゅ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:27",
+      "unitId": "unit:stage0:hiragana",
+      "index": 27,
+      "kind": "kana_intro",
+      "title": "じょ ちゃ ちゅ ちょ にゃ",
+      "introducesItems": [
+        "kana:hiragana:じょ",
+        "kana:hiragana:ちゃ",
+        "kana:hiragana:ちゅ",
+        "kana:hiragana:ちょ",
+        "kana:hiragana:にゃ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:じょ",
+        "kana:hiragana:ちゃ",
+        "kana:hiragana:ちゅ",
+        "kana:hiragana:ちょ",
+        "kana:hiragana:にゃ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:じょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:じょ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ちゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ちゃ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ちゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ちゅ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ちょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ちょ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:にゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:にゃ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:28",
+      "unitId": "unit:stage0:hiragana",
+      "index": 28,
+      "kind": "kana_intro",
+      "title": "にゅ にょ ひゃ ひゅ ひょ",
+      "introducesItems": [
+        "kana:hiragana:にゅ",
+        "kana:hiragana:にょ",
+        "kana:hiragana:ひゃ",
+        "kana:hiragana:ひゅ",
+        "kana:hiragana:ひょ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:にゅ",
+        "kana:hiragana:にょ",
+        "kana:hiragana:ひゃ",
+        "kana:hiragana:ひゅ",
+        "kana:hiragana:ひょ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:にゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:にゅ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:にょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:にょ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ひゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ひゃ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ひゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ひゅ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ひょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ひょ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:29",
+      "unitId": "unit:stage0:hiragana",
+      "index": 29,
+      "kind": "kana_review",
+      "title": "Review: じょちゃちゅちょにゃ + にゅにょひゃひゅひょ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:hiragana:じょ",
+        "kana:hiragana:ちゃ",
+        "kana:hiragana:ちゅ",
+        "kana:hiragana:ちょ",
+        "kana:hiragana:にゃ",
+        "kana:hiragana:にゅ",
+        "kana:hiragana:にょ",
+        "kana:hiragana:ひゃ",
+        "kana:hiragana:ひゅ",
+        "kana:hiragana:ひょ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:じょ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:ちゃ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:ちゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ちょ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:にゃ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:にゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:にょ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:ひゃ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:ひゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ひょ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:30",
+      "unitId": "unit:stage0:hiragana",
+      "index": 30,
+      "kind": "kana_intro",
+      "title": "びゃ びゅ びょ ぴゃ ぴゅ",
+      "introducesItems": [
+        "kana:hiragana:びゃ",
+        "kana:hiragana:びゅ",
+        "kana:hiragana:びょ",
+        "kana:hiragana:ぴゃ",
+        "kana:hiragana:ぴゅ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:びゃ",
+        "kana:hiragana:びゅ",
+        "kana:hiragana:びょ",
+        "kana:hiragana:ぴゃ",
+        "kana:hiragana:ぴゅ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:びゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:びゃ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:びゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:びゅ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:びょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:びょ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぴゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぴゃ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぴゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぴゅ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:31",
+      "unitId": "unit:stage0:hiragana",
+      "index": 31,
+      "kind": "kana_intro",
+      "title": "ぴょ みゃ みゅ みょ りゃ",
+      "introducesItems": [
+        "kana:hiragana:ぴょ",
+        "kana:hiragana:みゃ",
+        "kana:hiragana:みゅ",
+        "kana:hiragana:みょ",
+        "kana:hiragana:りゃ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:ぴょ",
+        "kana:hiragana:みゃ",
+        "kana:hiragana:みゅ",
+        "kana:hiragana:みょ",
+        "kana:hiragana:りゃ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:ぴょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぴょ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:みゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:みゃ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:みゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:みゅ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:みょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:みょ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:りゃ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:りゃ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:32",
+      "unitId": "unit:stage0:hiragana",
+      "index": 32,
+      "kind": "kana_review",
+      "title": "Review: びゃびゅびょぴゃぴゅ + ぴょみゃみゅみょりゃ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:hiragana:びゃ",
+        "kana:hiragana:びゅ",
+        "kana:hiragana:びょ",
+        "kana:hiragana:ぴゃ",
+        "kana:hiragana:ぴゅ",
+        "kana:hiragana:ぴょ",
+        "kana:hiragana:みゃ",
+        "kana:hiragana:みゅ",
+        "kana:hiragana:みょ",
+        "kana:hiragana:りゃ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:びゃ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:びゅ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:びょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:ぴゃ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:ぴゅ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:ぴょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:みゃ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:みゅ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:hiragana:みょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:りゃ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:33",
+      "unitId": "unit:stage0:hiragana",
+      "index": 33,
+      "kind": "kana_intro",
+      "title": "りゅ りょ",
+      "introducesItems": [
+        "kana:hiragana:りゅ",
+        "kana:hiragana:りょ"
+      ],
+      "practicesItems": [
+        "kana:hiragana:りゅ",
+        "kana:hiragana:りょ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:りゅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:りゅ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:hiragana:りょ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:りょ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:hiragana:34",
+      "unitId": "unit:stage0:hiragana",
+      "index": 34,
+      "kind": "kana_review",
+      "title": "Review: りゅりょ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:hiragana:りゅ",
+        "kana:hiragana:りょ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:hiragana:りゅ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:hiragana:りょ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:0",
+      "unitId": "unit:stage0:katakana",
+      "index": 0,
+      "kind": "kana_intro",
+      "title": "ア イ ウ エ オ",
+      "introducesItems": [
+        "kana:katakana:ア",
+        "kana:katakana:イ",
+        "kana:katakana:ウ",
+        "kana:katakana:エ",
+        "kana:katakana:オ"
+      ],
+      "practicesItems": [
+        "kana:katakana:ア",
+        "kana:katakana:イ",
+        "kana:katakana:ウ",
+        "kana:katakana:エ",
+        "kana:katakana:オ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ア"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ア"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:イ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:イ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ウ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ウ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:エ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:エ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:オ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:オ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:1",
+      "unitId": "unit:stage0:katakana",
+      "index": 1,
+      "kind": "kana_intro",
+      "title": "カ キ ク",
+      "introducesItems": [
+        "kana:katakana:カ",
+        "kana:katakana:キ",
+        "kana:katakana:ク"
+      ],
+      "practicesItems": [
+        "kana:katakana:カ",
+        "kana:katakana:キ",
+        "kana:katakana:ク"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:カ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:カ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:キ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:キ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ク"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ク"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:2",
+      "unitId": "unit:stage0:katakana",
+      "index": 2,
+      "kind": "kana_review",
+      "title": "Review: アイウエオ + カキク",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:katakana:ア",
+        "kana:katakana:イ",
+        "kana:katakana:ウ",
+        "kana:katakana:エ",
+        "kana:katakana:オ",
+        "kana:katakana:カ",
+        "kana:katakana:キ",
+        "kana:katakana:ク"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ア"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:イ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ウ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:エ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:オ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:カ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:キ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ク"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:3",
+      "unitId": "unit:stage0:katakana",
+      "index": 3,
+      "kind": "kana_intro",
+      "title": "ケ コ サ シ ス",
+      "introducesItems": [
+        "kana:katakana:ケ",
+        "kana:katakana:コ",
+        "kana:katakana:サ",
+        "kana:katakana:シ",
+        "kana:katakana:ス"
+      ],
+      "practicesItems": [
+        "kana:katakana:ケ",
+        "kana:katakana:コ",
+        "kana:katakana:サ",
+        "kana:katakana:シ",
+        "kana:katakana:ス"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ケ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ケ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:コ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:コ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:サ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:サ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:シ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:シ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ス"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ス"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:4",
+      "unitId": "unit:stage0:katakana",
+      "index": 4,
+      "kind": "kana_intro",
+      "title": "セ ソ タ チ ツ",
+      "introducesItems": [
+        "kana:katakana:セ",
+        "kana:katakana:ソ",
+        "kana:katakana:タ",
+        "kana:katakana:チ",
+        "kana:katakana:ツ"
+      ],
+      "practicesItems": [
+        "kana:katakana:セ",
+        "kana:katakana:ソ",
+        "kana:katakana:タ",
+        "kana:katakana:チ",
+        "kana:katakana:ツ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:セ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:セ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ソ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ソ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:タ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:タ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:チ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:チ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ツ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ツ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:5",
+      "unitId": "unit:stage0:katakana",
+      "index": 5,
+      "kind": "kana_review",
+      "title": "Review: ケコサシス + セソタチツ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:katakana:ケ",
+        "kana:katakana:コ",
+        "kana:katakana:サ",
+        "kana:katakana:シ",
+        "kana:katakana:ス",
+        "kana:katakana:セ",
+        "kana:katakana:ソ",
+        "kana:katakana:タ",
+        "kana:katakana:チ",
+        "kana:katakana:ツ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ケ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:コ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:サ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:シ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ス"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:セ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ソ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:タ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:チ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ツ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:6",
+      "unitId": "unit:stage0:katakana",
+      "index": 6,
+      "kind": "kana_intro",
+      "title": "テ ト ナ ニ ヌ",
+      "introducesItems": [
+        "kana:katakana:テ",
+        "kana:katakana:ト",
+        "kana:katakana:ナ",
+        "kana:katakana:ニ",
+        "kana:katakana:ヌ"
+      ],
+      "practicesItems": [
+        "kana:katakana:テ",
+        "kana:katakana:ト",
+        "kana:katakana:ナ",
+        "kana:katakana:ニ",
+        "kana:katakana:ヌ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:テ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:テ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ト"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ト"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ナ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ナ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ニ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ニ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ヌ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヌ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:7",
+      "unitId": "unit:stage0:katakana",
+      "index": 7,
+      "kind": "kana_intro",
+      "title": "ネ ノ ハ ヒ フ",
+      "introducesItems": [
+        "kana:katakana:ネ",
+        "kana:katakana:ノ",
+        "kana:katakana:ハ",
+        "kana:katakana:ヒ",
+        "kana:katakana:フ"
+      ],
+      "practicesItems": [
+        "kana:katakana:ネ",
+        "kana:katakana:ノ",
+        "kana:katakana:ハ",
+        "kana:katakana:ヒ",
+        "kana:katakana:フ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ネ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ネ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ノ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ノ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ハ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ハ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ヒ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヒ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:フ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:フ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:8",
+      "unitId": "unit:stage0:katakana",
+      "index": 8,
+      "kind": "kana_review",
+      "title": "Review: テトナニヌ + ネノハヒフ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:katakana:テ",
+        "kana:katakana:ト",
+        "kana:katakana:ナ",
+        "kana:katakana:ニ",
+        "kana:katakana:ヌ",
+        "kana:katakana:ネ",
+        "kana:katakana:ノ",
+        "kana:katakana:ハ",
+        "kana:katakana:ヒ",
+        "kana:katakana:フ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:テ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ト"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ナ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ニ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ヌ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ネ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ノ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ハ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ヒ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:フ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:9",
+      "unitId": "unit:stage0:katakana",
+      "index": 9,
+      "kind": "kana_intro",
+      "title": "ヘ ホ マ ミ ム",
+      "introducesItems": [
+        "kana:katakana:ヘ",
+        "kana:katakana:ホ",
+        "kana:katakana:マ",
+        "kana:katakana:ミ",
+        "kana:katakana:ム"
+      ],
+      "practicesItems": [
+        "kana:katakana:ヘ",
+        "kana:katakana:ホ",
+        "kana:katakana:マ",
+        "kana:katakana:ミ",
+        "kana:katakana:ム"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ヘ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヘ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ホ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ホ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:マ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:マ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ミ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ミ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ム"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ム"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:10",
+      "unitId": "unit:stage0:katakana",
+      "index": 10,
+      "kind": "kana_intro",
+      "title": "メ モ ヤ ユ ヨ",
+      "introducesItems": [
+        "kana:katakana:メ",
+        "kana:katakana:モ",
+        "kana:katakana:ヤ",
+        "kana:katakana:ユ",
+        "kana:katakana:ヨ"
+      ],
+      "practicesItems": [
+        "kana:katakana:メ",
+        "kana:katakana:モ",
+        "kana:katakana:ヤ",
+        "kana:katakana:ユ",
+        "kana:katakana:ヨ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:メ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:メ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:モ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:モ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ヤ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヤ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ユ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ユ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ヨ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヨ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:11",
+      "unitId": "unit:stage0:katakana",
+      "index": 11,
+      "kind": "kana_review",
+      "title": "Review: ヘホマミム + メモヤユヨ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:katakana:ヘ",
+        "kana:katakana:ホ",
+        "kana:katakana:マ",
+        "kana:katakana:ミ",
+        "kana:katakana:ム",
+        "kana:katakana:メ",
+        "kana:katakana:モ",
+        "kana:katakana:ヤ",
+        "kana:katakana:ユ",
+        "kana:katakana:ヨ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヘ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ホ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:マ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ミ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ム"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:メ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:モ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ヤ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ユ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヨ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:12",
+      "unitId": "unit:stage0:katakana",
+      "index": 12,
+      "kind": "kana_intro",
+      "title": "ラ リ ル レ ロ",
+      "introducesItems": [
+        "kana:katakana:ラ",
+        "kana:katakana:リ",
+        "kana:katakana:ル",
+        "kana:katakana:レ",
+        "kana:katakana:ロ"
+      ],
+      "practicesItems": [
+        "kana:katakana:ラ",
+        "kana:katakana:リ",
+        "kana:katakana:ル",
+        "kana:katakana:レ",
+        "kana:katakana:ロ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ラ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ラ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:リ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:リ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ル"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ル"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:レ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:レ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ロ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ロ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:13",
+      "unitId": "unit:stage0:katakana",
+      "index": 13,
+      "kind": "kana_intro",
+      "title": "ワ ヲ ン ガ ギ",
+      "introducesItems": [
+        "kana:katakana:ワ",
+        "kana:katakana:ヲ",
+        "kana:katakana:ン",
+        "kana:katakana:ガ",
+        "kana:katakana:ギ"
+      ],
+      "practicesItems": [
+        "kana:katakana:ワ",
+        "kana:katakana:ヲ",
+        "kana:katakana:ン",
+        "kana:katakana:ガ",
+        "kana:katakana:ギ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ワ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ワ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ヲ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヲ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ン"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ン"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ガ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ガ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ギ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ギ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:14",
+      "unitId": "unit:stage0:katakana",
+      "index": 14,
+      "kind": "kana_review",
+      "title": "Review: ラリルレロ + ワヲンガギ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:katakana:ラ",
+        "kana:katakana:リ",
+        "kana:katakana:ル",
+        "kana:katakana:レ",
+        "kana:katakana:ロ",
+        "kana:katakana:ワ",
+        "kana:katakana:ヲ",
+        "kana:katakana:ン",
+        "kana:katakana:ガ",
+        "kana:katakana:ギ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ラ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:リ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ル"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:レ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ロ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ワ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヲ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ン"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ガ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ギ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:15",
+      "unitId": "unit:stage0:katakana",
+      "index": 15,
+      "kind": "kana_intro",
+      "title": "グ ゲ ゴ ザ ジ",
+      "introducesItems": [
+        "kana:katakana:グ",
+        "kana:katakana:ゲ",
+        "kana:katakana:ゴ",
+        "kana:katakana:ザ",
+        "kana:katakana:ジ"
+      ],
+      "practicesItems": [
+        "kana:katakana:グ",
+        "kana:katakana:ゲ",
+        "kana:katakana:ゴ",
+        "kana:katakana:ザ",
+        "kana:katakana:ジ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:グ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:グ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ゲ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ゲ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ゴ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ゴ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ザ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ザ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ジ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ジ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:16",
+      "unitId": "unit:stage0:katakana",
+      "index": 16,
+      "kind": "kana_intro",
+      "title": "ズ ゼ ゾ ダ ヂ",
+      "introducesItems": [
+        "kana:katakana:ズ",
+        "kana:katakana:ゼ",
+        "kana:katakana:ゾ",
+        "kana:katakana:ダ",
+        "kana:katakana:ヂ"
+      ],
+      "practicesItems": [
+        "kana:katakana:ズ",
+        "kana:katakana:ゼ",
+        "kana:katakana:ゾ",
+        "kana:katakana:ダ",
+        "kana:katakana:ヂ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ズ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ズ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ゼ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ゼ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ゾ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ゾ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ダ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ダ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ヂ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヂ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:17",
+      "unitId": "unit:stage0:katakana",
+      "index": 17,
+      "kind": "kana_review",
+      "title": "Review: グゲゴザジ + ズゼゾダヂ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:katakana:グ",
+        "kana:katakana:ゲ",
+        "kana:katakana:ゴ",
+        "kana:katakana:ザ",
+        "kana:katakana:ジ",
+        "kana:katakana:ズ",
+        "kana:katakana:ゼ",
+        "kana:katakana:ゾ",
+        "kana:katakana:ダ",
+        "kana:katakana:ヂ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:グ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ゲ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ゴ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ザ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ジ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ズ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ゼ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ゾ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ダ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヂ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:18",
+      "unitId": "unit:stage0:katakana",
+      "index": 18,
+      "kind": "kana_intro",
+      "title": "ヅ デ ド バ ビ",
+      "introducesItems": [
+        "kana:katakana:ヅ",
+        "kana:katakana:デ",
+        "kana:katakana:ド",
+        "kana:katakana:バ",
+        "kana:katakana:ビ"
+      ],
+      "practicesItems": [
+        "kana:katakana:ヅ",
+        "kana:katakana:デ",
+        "kana:katakana:ド",
+        "kana:katakana:バ",
+        "kana:katakana:ビ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ヅ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヅ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:デ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:デ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ド"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ド"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:バ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:バ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ビ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ビ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:19",
+      "unitId": "unit:stage0:katakana",
+      "index": 19,
+      "kind": "kana_intro",
+      "title": "ブ ベ ボ パ ピ",
+      "introducesItems": [
+        "kana:katakana:ブ",
+        "kana:katakana:ベ",
+        "kana:katakana:ボ",
+        "kana:katakana:パ",
+        "kana:katakana:ピ"
+      ],
+      "practicesItems": [
+        "kana:katakana:ブ",
+        "kana:katakana:ベ",
+        "kana:katakana:ボ",
+        "kana:katakana:パ",
+        "kana:katakana:ピ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ブ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ブ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ベ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ベ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ボ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ボ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:パ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:パ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ピ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ピ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:20",
+      "unitId": "unit:stage0:katakana",
+      "index": 20,
+      "kind": "kana_review",
+      "title": "Review: ヅデドバビ + ブベボパピ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:katakana:ヅ",
+        "kana:katakana:デ",
+        "kana:katakana:ド",
+        "kana:katakana:バ",
+        "kana:katakana:ビ",
+        "kana:katakana:ブ",
+        "kana:katakana:ベ",
+        "kana:katakana:ボ",
+        "kana:katakana:パ",
+        "kana:katakana:ピ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヅ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:デ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ド"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:バ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ビ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ブ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ベ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ボ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:パ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ピ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:21",
+      "unitId": "unit:stage0:katakana",
+      "index": 21,
+      "kind": "kana_intro",
+      "title": "プ ペ ポ キャ キュ",
+      "introducesItems": [
+        "kana:katakana:プ",
+        "kana:katakana:ペ",
+        "kana:katakana:ポ",
+        "kana:katakana:キャ",
+        "kana:katakana:キュ"
+      ],
+      "practicesItems": [
+        "kana:katakana:プ",
+        "kana:katakana:ペ",
+        "kana:katakana:ポ",
+        "kana:katakana:キャ",
+        "kana:katakana:キュ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:プ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:プ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ペ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ペ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ポ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ポ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:キャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:キャ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:キュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:キュ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:22",
+      "unitId": "unit:stage0:katakana",
+      "index": 22,
+      "kind": "kana_intro",
+      "title": "キョ ギャ ギュ ギョ シャ",
+      "introducesItems": [
+        "kana:katakana:キョ",
+        "kana:katakana:ギャ",
+        "kana:katakana:ギュ",
+        "kana:katakana:ギョ",
+        "kana:katakana:シャ"
+      ],
+      "practicesItems": [
+        "kana:katakana:キョ",
+        "kana:katakana:ギャ",
+        "kana:katakana:ギュ",
+        "kana:katakana:ギョ",
+        "kana:katakana:シャ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:キョ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:キョ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ギャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ギャ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ギュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ギュ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ギョ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ギョ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:シャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:シャ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:23",
+      "unitId": "unit:stage0:katakana",
+      "index": 23,
+      "kind": "kana_review",
+      "title": "Review: プペポキャキュ + キョギャギュギョシャ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:katakana:プ",
+        "kana:katakana:ペ",
+        "kana:katakana:ポ",
+        "kana:katakana:キャ",
+        "kana:katakana:キュ",
+        "kana:katakana:キョ",
+        "kana:katakana:ギャ",
+        "kana:katakana:ギュ",
+        "kana:katakana:ギョ",
+        "kana:katakana:シャ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:プ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ペ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ポ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:キャ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:キュ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:キョ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ギャ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ギュ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ギョ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:シャ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:24",
+      "unitId": "unit:stage0:katakana",
+      "index": 24,
+      "kind": "kana_intro",
+      "title": "シュ ショ ジャ ジュ ジョ",
+      "introducesItems": [
+        "kana:katakana:シュ",
+        "kana:katakana:ショ",
+        "kana:katakana:ジャ",
+        "kana:katakana:ジュ",
+        "kana:katakana:ジョ"
+      ],
+      "practicesItems": [
+        "kana:katakana:シュ",
+        "kana:katakana:ショ",
+        "kana:katakana:ジャ",
+        "kana:katakana:ジュ",
+        "kana:katakana:ジョ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:シュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:シュ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ショ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ショ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ジャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ジャ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ジュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ジュ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ジョ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ジョ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:25",
+      "unitId": "unit:stage0:katakana",
+      "index": 25,
+      "kind": "kana_intro",
+      "title": "チャ チュ チョ ニャ ニュ",
+      "introducesItems": [
+        "kana:katakana:チャ",
+        "kana:katakana:チュ",
+        "kana:katakana:チョ",
+        "kana:katakana:ニャ",
+        "kana:katakana:ニュ"
+      ],
+      "practicesItems": [
+        "kana:katakana:チャ",
+        "kana:katakana:チュ",
+        "kana:katakana:チョ",
+        "kana:katakana:ニャ",
+        "kana:katakana:ニュ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:チャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:チャ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:チュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:チュ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:チョ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:チョ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ニャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ニャ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ニュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ニュ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:26",
+      "unitId": "unit:stage0:katakana",
+      "index": 26,
+      "kind": "kana_review",
+      "title": "Review: シュショジャジュジョ + チャチュチョニャニュ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:katakana:シュ",
+        "kana:katakana:ショ",
+        "kana:katakana:ジャ",
+        "kana:katakana:ジュ",
+        "kana:katakana:ジョ",
+        "kana:katakana:チャ",
+        "kana:katakana:チュ",
+        "kana:katakana:チョ",
+        "kana:katakana:ニャ",
+        "kana:katakana:ニュ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:シュ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ショ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ジャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ジュ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ジョ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:チャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:チュ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:チョ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ニャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ニュ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:27",
+      "unitId": "unit:stage0:katakana",
+      "index": 27,
+      "kind": "kana_intro",
+      "title": "ニョ ヒャ ヒュ ヒョ ビャ",
+      "introducesItems": [
+        "kana:katakana:ニョ",
+        "kana:katakana:ヒャ",
+        "kana:katakana:ヒュ",
+        "kana:katakana:ヒョ",
+        "kana:katakana:ビャ"
+      ],
+      "practicesItems": [
+        "kana:katakana:ニョ",
+        "kana:katakana:ヒャ",
+        "kana:katakana:ヒュ",
+        "kana:katakana:ヒョ",
+        "kana:katakana:ビャ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ニョ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ニョ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ヒャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヒャ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ヒュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヒュ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ヒョ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヒョ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ビャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ビャ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:28",
+      "unitId": "unit:stage0:katakana",
+      "index": 28,
+      "kind": "kana_intro",
+      "title": "ビュ ビョ ピャ ピュ ピョ",
+      "introducesItems": [
+        "kana:katakana:ビュ",
+        "kana:katakana:ビョ",
+        "kana:katakana:ピャ",
+        "kana:katakana:ピュ",
+        "kana:katakana:ピョ"
+      ],
+      "practicesItems": [
+        "kana:katakana:ビュ",
+        "kana:katakana:ビョ",
+        "kana:katakana:ピャ",
+        "kana:katakana:ピュ",
+        "kana:katakana:ピョ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ビュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ビュ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ビョ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ビョ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ピャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ピャ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ピュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ピュ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ピョ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ピョ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:29",
+      "unitId": "unit:stage0:katakana",
+      "index": 29,
+      "kind": "kana_review",
+      "title": "Review: ニョヒャヒュヒョビャ + ビュビョピャピュピョ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:katakana:ニョ",
+        "kana:katakana:ヒャ",
+        "kana:katakana:ヒュ",
+        "kana:katakana:ヒョ",
+        "kana:katakana:ビャ",
+        "kana:katakana:ビュ",
+        "kana:katakana:ビョ",
+        "kana:katakana:ピャ",
+        "kana:katakana:ピュ",
+        "kana:katakana:ピョ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ニョ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ヒャ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ヒュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ヒョ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ビャ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ビュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ビョ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ピャ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ピュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ピョ"
+        }
+      ],
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:30",
+      "unitId": "unit:stage0:katakana",
+      "index": 30,
+      "kind": "kana_intro",
+      "title": "ミャ ミュ ミョ リャ リュ",
+      "introducesItems": [
+        "kana:katakana:ミャ",
+        "kana:katakana:ミュ",
+        "kana:katakana:ミョ",
+        "kana:katakana:リャ",
+        "kana:katakana:リュ"
+      ],
+      "practicesItems": [
+        "kana:katakana:ミャ",
+        "kana:katakana:ミュ",
+        "kana:katakana:ミョ",
+        "kana:katakana:リャ",
+        "kana:katakana:リュ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ミャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ミャ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ミュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ミュ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:ミョ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ミョ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:リャ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:リャ"
+        },
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:リュ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:リュ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:31",
+      "unitId": "unit:stage0:katakana",
+      "index": 31,
+      "kind": "kana_intro",
+      "title": "リョ",
+      "introducesItems": [
+        "kana:katakana:リョ"
+      ],
+      "practicesItems": [
+        "kana:katakana:リョ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.15",
+          "itemId": "kana:katakana:リョ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:リョ"
+        }
+      ],
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "lesson:stage0:unit:stage0:katakana:32",
+      "unitId": "unit:stage0:katakana",
+      "index": 32,
+      "kind": "kana_review",
+      "title": "Review: ミャミュミョリャリュ + リョ",
+      "introducesItems": [],
+      "practicesItems": [
+        "kana:katakana:ミャ",
+        "kana:katakana:ミュ",
+        "kana:katakana:ミョ",
+        "kana:katakana:リャ",
+        "kana:katakana:リュ",
+        "kana:katakana:リョ"
+      ],
+      "exerciseTemplates": [
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:ミャ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:ミュ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:ミョ"
+        },
+        {
+          "type": "7.1",
+          "itemId": "kana:katakana:リャ"
+        },
+        {
+          "type": "7.2",
+          "itemId": "kana:katakana:リュ"
+        },
+        {
+          "type": "7.3",
+          "itemId": "kana:katakana:リョ"
+        }
+      ],
+      "estimatedMinutes": 10
+    }
+  ]
+}

@@ -12,6 +12,12 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
+    // Test files run under Node (via Vitest) and sometimes need fs/path/url
+    // for fixture loading — safe to include for src/ too, it only adds
+    // ambient types, it doesn't force any file to use them.
+    // "@testing-library/jest-dom" adds the toBeInTheDocument()-style
+    // matcher types used across component tests.
+    "types": ["node", "@testing-library/jest-dom"],
 
     "strict": true,
     "noUnusedLocals": true,

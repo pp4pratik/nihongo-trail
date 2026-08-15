@@ -129,6 +129,23 @@ export class IndexedDbProgressStore implements ProgressStore {
     await this.db.dailyStats.put(entry)
   }
 
+  async persistAnswer(params: {
+    card?: SrsCard
+    reviewLogEntry?: ReviewLogEntry
+    session: Session
+    metaPatch?: Partial<UserMeta>
+  }): Promise<void> {
+    await this.db.transaction('rw', [this.db.cards, this.db.reviewLog, this.db.sessions, this.db.meta], async () => {
+      if (params.card) await this.db.cards.put(params.card)
+      if (params.reviewLogEntry) await this.db.reviewLog.add(params.reviewLogEntry)
+      await this.db.sessions.put(params.session)
+      if (params.metaPatch) {
+        const current = await this.getMeta()
+        await this.db.meta.put({ key: 'user', ...current, ...params.metaPatch })
+      }
+    })
+  }
+
   async exportAll(): Promise<ExportBundle> {
     const [cards, reviewLog, sessions, lessonProgress, unitProgress, dailyStats, meta] =
       await Promise.all([

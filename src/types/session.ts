@@ -28,6 +28,13 @@ export interface ResolvedExercise {
   correctAnswer: string | string[]
   acceptedAnswers?: string[] // normalised alternatives
   hint?: string
+  // §7.12 matching pairs is inherently multi-item ("grid of 5 Japanese +
+  // 5 English tiles") but §12.5's ResolvedExercise is one-item-per-entry.
+  // Resolved as N consecutive entries sharing a groupId — each pair stays
+  // independently gradable with its own SRS rating (§7.12: "each pair
+  // produces its own SRS rating"), and the UI renders same-groupId
+  // entries as one matching screen. See docs/DECISIONS.md.
+  groupId?: string
 }
 
 export interface ExerciseAnswer {
