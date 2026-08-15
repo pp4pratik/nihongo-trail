@@ -1,0 +1,42 @@
+Nihongo Trail uses the following openly licensed data:
+
+JMdict / JMnedict
+  Property of the Electronic Dictionary Research and Development Group
+  (EDRDG), used in conformance with the Group's licence:
+  https://www.edrdg.org/edrdg/licence.html
+  Processed JSON via jmdict-simplified (https://github.com/scriptin/jmdict-simplified)
+
+KANJIDIC2
+  Property of the EDRDG, released under the Creative Commons
+  Attribution-ShareAlike License v4.0.
+  https://creativecommons.org/licenses/by-sa/4.0/
+
+KRADFILE / RADKFILE
+  Property of the EDRDG, used in conformance with the Group's licence.
+  RADKFILE2 / KRADFILE2 copyright Jim Rose.
+
+KanjiVG
+  Copyright Ulrich Apel, released under Creative Commons
+  Attribution-ShareAlike 3.0.
+  https://kanjivg.tagaini.net/
+
+Tatoeba
+  Example sentences from the Tatoeba Project, released under
+  CC BY 2.0 FR (a subset under CC0 1.0).
+  https://tatoeba.org/
+
+Free Spaced Repetition Scheduler (ts-fsrs)
+  MIT License. https://github.com/open-spaced-repetition/ts-fsrs
+
+---
+
+As of the current release, only JMdict/KANJIDIC2/KanjiVG/Tatoeba's
+licensing terms are documented here — the actual dataset-derived content
+lands in Phase 2 (docs/REQUIREMENTS.md §16). Phase 1 ships hand-authored
+kana content only. This notice is published ahead of that content
+arriving so the obligations are correct and visible from day one.
+
+Derived content files in public/content/ are distributed under CC BY-SA 4.0
+to satisfy the share-alike obligations of KANJIDIC2 and KanjiVG — see
+public/content/LICENSE. Application source code is separately licensed
+under MIT — see LICENSE.

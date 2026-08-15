@@ -5,7 +5,7 @@
 // Phase 3 Lesson Map.
 
 import { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { progressStore } from '@/storage/db'
 import { loadCurriculumContent, firstLessonOf } from '@/content/loadCurriculum'
 import { createFsrsScheduler, getRetrievability } from '@/features/srs/fsrsClient'
@@ -137,6 +137,13 @@ export function HomeScreen() {
       >
         {state.activeSession ? 'Continue' : 'Start lesson'}
       </button>
+
+      <Link
+        to="/credits"
+        className="mt-6 inline-block text-sm text-neutral-600 underline"
+      >
+        Credits & data attribution
+      </Link>
     </div>
   )
 }
