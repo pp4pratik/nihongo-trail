@@ -118,16 +118,37 @@ export function SessionPlayer({
 
   if (!exercise) return null
 
-  if (feedback) {
+  if (exercise.type === '7.12') {
+    const group = collectMatchingGroup(session)
     return (
-      <div className="flex min-h-full flex-col">
-        <div className="flex flex-1 items-center justify-center px-6">
-          {renderExercise(exercise, session, script, controller, () => {}, feedback)}
-        </div>
-        <div
-          className={`px-4 pb-6 pt-4 ${feedback.wasCorrect ? 'bg-green-500/10' : 'bg-red-500/10'}`}
-        >
-          <p className={`mb-3 text-lg font-semibold ${feedback.wasCorrect ? 'text-green-400' : 'text-red-400'}`}>
+      <MatchingExercise
+        exercises={group}
+        onPair={(_pairExercise, selectedRomaji) => {
+          void answer(selectedRomaji)
+        }}
+      />
+    )
+  }
+
+  // One stable wrapper shape whether or not feedback is showing — the
+  // exercise component must stay at the same position in the tree across
+  // the answer -> feedback transition, or React remounts it and its
+  // internal "which option did I tap" state resets before the wrong-answer
+  // highlight ever renders. (Caught via manual browser verification: the
+  // correct answer highlighted green as expected, but the actually-tapped
+  // wrong option never turned red — an earlier version returned a
+  // differently-shaped tree once `feedback` was set, which unmounted and
+  // remounted MultipleChoiceExercise/TypingExercise mid-transition.)
+  return (
+    <div className="flex min-h-full flex-col">
+      <div className="flex-1">
+        {renderExercise(exercise, script, feedback ? () => {} : answer, feedback)}
+      </div>
+      {feedback && (
+        <div className={`px-4 pb-6 pt-4 ${feedback.wasCorrect ? 'bg-green-500/10' : 'bg-red-500/10'}`}>
+          <p
+            className={`mb-3 text-lg font-semibold ${feedback.wasCorrect ? 'text-green-400' : 'text-red-400'}`}
+          >
             {feedback.wasCorrect ? 'Correct!' : 'Not quite'}
           </p>
           {!feedback.wasCorrect && (
@@ -143,30 +164,14 @@ export function SessionPlayer({
             Continue
           </button>
         </div>
-      </div>
-    )
-  }
-
-  if (exercise.type === '7.12') {
-    const group = collectMatchingGroup(session)
-    return (
-      <MatchingExercise
-        exercises={group}
-        onPair={(_pairExercise, selectedRomaji) => {
-          void answer(selectedRomaji)
-        }}
-      />
-    )
-  }
-
-  return renderExercise(exercise, session, script, controller, answer, null)
+      )}
+    </div>
+  )
 }
 
 function renderExercise(
   exercise: ResolvedExercise,
-  _session: Session,
   script: KanaScript,
-  _controller: SessionPersistenceController,
   onAnswer: (rawInput: string) => void,
   feedback: PendingFeedback | null,
 ) {

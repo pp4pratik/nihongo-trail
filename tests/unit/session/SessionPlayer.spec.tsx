@@ -137,4 +137,48 @@ describe('SessionPlayer', () => {
     await waitFor(() => expect(onSessionChangeCallCount).toBe(1))
     expect(current.currentIndex).toBe(session.currentIndex + 1)
   })
+
+  it('regression: the tapped wrong option is highlighted red, not just the correct one green', async () => {
+    // Caught via manual browser verification: SessionPlayer returned a
+    // differently-shaped element tree once feedback appeared (bare
+    // <MultipleChoiceExercise> before answering vs. wrapped in new <div>s
+    // after) — React saw the root element type change and remounted the
+    // component, resetting its internal "which option did I tap" state
+    // before the wrong-answer highlight could render. Only the
+    // correct-answer green ever showed; the tapped wrong option looked
+    // like every other unselected option.
+    const { store, controller, session: initialSession } = setup()
+
+    let session = initialSession
+    while (session.exercises[session.currentIndex]?.type === '7.15') {
+      const result = await submitAnswer(
+        { store, clock: () => NOW },
+        { session, rawInput: 'ack', responseTimeMs: 100, usedHint: false, script: 'hiragana' },
+      )
+      session = result.session
+    }
+
+    render(
+      <SessionPlayer
+        session={session}
+        script="hiragana"
+        controller={controller}
+        onSessionChange={() => {}}
+        onComplete={() => {}}
+      />,
+    )
+
+    const exercise = session.exercises[session.currentIndex]
+    const wrongOption = exercise.options!.find((o) => !o.isCorrect)!
+    const correctOption = exercise.options!.find((o) => o.isCorrect)!
+
+    const wrongButton = screen.getByText(wrongOption.text).closest('button')!
+    const correctButton = screen.getByText(correctOption.text).closest('button')!
+
+    await userEvent.click(wrongButton)
+    await waitFor(() => expect(screen.getByText('Not quite')).toBeInTheDocument())
+
+    expect(wrongButton.className).toMatch(/border-red-500/)
+    expect(correctButton.className).toMatch(/border-green-500/)
+  })
 })

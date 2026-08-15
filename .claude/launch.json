@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "nihongo-trail-dev",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["vite", "--port", "5273"],
+      "runtimeExecutable": "node_modules/.bin/vite",
+      "runtimeArgs": ["--port", "5273"],
       "port": 5273
     }
   ]
